@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="/modules/app.js"></script>
+
+    
+    <title>Bazar.com</title>
+  </head>
+  <body class="bg-light">
+    <!-- Navbar section start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container ">
+        <div ><a class="navbar-brand" href="#">Bazar.com</a></div>
+        <div class="collapse navbar-collapse  ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="cart-btn nav-link">Cart <span class="cart-items">0</span></a>
+            </li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Product holder section start -->
+<div class="container p-4 text-center"><hi class="fs-3 fw-bold">Product List</hi>
+<h6>Eid sell is going on!  </h6>
+<p>Buy 2 or more products to save 10% on every purchase</p>
+
+</div>
+    <div id="container" class="container mx-auto mt-4 row">
+        
+          
+    </div>
+
+
+    <!-- Cart section start -->
+
+<div class="cart-overlay">
+  <div class="cart">
+      <span class="close-cart">
+            X 
+      </span>
+      <h3 class=" text-center">Your Cart</h3>
+      <div class="cart-content">
+       
+          
+
+              
+      </div>
+      <div class="cart-footer"><h5>Subtotal: $ <span class="cart-total">0</span></h5>
+      <div class="cart-footer"><h6>Discount: $ <span class="discount">0</span></h6>
+      <div class="cart-footer"><h4>Your total: $ <span class="net-total">0</span></h4>
+        <button class="clear-cart btn btn-warning">Clear Cart</button>
+
+        </div>
+  </div>
+</div>
+
+    
+      
+  </body>
+</html>
